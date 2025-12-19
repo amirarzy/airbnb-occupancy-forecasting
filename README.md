@@ -61,3 +61,11 @@ The main model is an **XGBoost Regressor**:
 
 1. Place `train.json` and `test.json` in a folder (e.g. `ML Challenge/`).
 2. Install dependencies:
+   pip install pandas numpy xgboost optuna scikit-learn
+3. Run the notebook or script to:
+- load data,
+- engineer features,
+- train the XGBoost model with tuned hyperparameters,
+- generate `predicted.json` and `predicted.zip`.
+
+   
