@@ -15,7 +15,7 @@ Best model: XGBoost regressor with Optuna tuning, reaching a validation **MAE of
   - Text field of **facilities/amenities**
   - Host information and other metadata
 
-The raw JSON files are loaded and converted into tabular `pandas` DataFrames (`df_train`, `df_test`) for further processing. [web:147]
+The raw JSON files are loaded and converted into tabular `pandas` DataFrames (`df_train`, `df_test`) for further processing.
 
 ---
 
@@ -29,7 +29,7 @@ Key feature engineering steps:
 - Handled missing values for text and categorical fields (e.g. replacing with `"Unknown"`).
 - Encoded categorical variables (`room_type`, `listing_type`, `cancellation`) using `LabelEncoder`.
 
-These steps transform mixed JSON and text data into a clean numerical feature matrix suitable for tree‑based models like XGBoost. [web:128][web:131][web:147]
+These steps transform mixed JSON and text data into a clean numerical feature matrix suitable for tree‑based models like XGBoost.
 
 ---
 
