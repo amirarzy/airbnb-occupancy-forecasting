@@ -3,7 +3,7 @@
 This project builds a machine learning pipeline to forecast the **occupancy rate of Airbnb listings** based on listing metadata and facilities information.
 
 It was originally developed for an **ML challenge**, and implemented in Python using `pandas`, `scikit-learn`, `XGBoost` and `optuna`.  
-Best model: XGBoost regressor with Optuna tuning, reaching a validation **MAE of 0.138** on Airbnb occupancy prediction. [web:144][web:147]
+Best model: XGBoost regressor with Optuna tuning, reaching a validation **MAE of 0.138** on Airbnb occupancy prediction.
 
 ---
 
