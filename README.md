@@ -42,7 +42,7 @@ The main model is an **XGBoost Regressor**:
   - `n_estimators`, `learning_rate`, `max_depth`, `subsample`
   - `colsample_bytree`, `min_child_weight`, `reg_alpha`, `reg_lambda`
 - Used **5‑Fold cross‑validation** to obtain stable MAE estimates and out‑of‑fold predictions.  
-- The tuned XGBoost model achieved a **validation MAE of 0.138**. [web:144][web:147]
+- The tuned XGBoost model achieved a **validation MAE of 0.138**.
 - Trained a final model on the full training set using the best hyperparameters and generated predictions for the test set.
 
 ---
